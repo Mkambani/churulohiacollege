@@ -76,7 +76,7 @@ export const Footer: React.FC = () => {
                     <img
                       alt="store-2"
                       className="relative box-border inline max-w-[120px] break-words z-[1] md:max-w-full"
-                      src="/assets/store-2.webp"
+                      src="/assets/2store-2.webp"
                     />
                   </div>
                 </div>
