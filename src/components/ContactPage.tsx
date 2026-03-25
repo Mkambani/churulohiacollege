@@ -42,17 +42,17 @@ export const ContactPage: React.FC = () => {
                 icon="/assets/icon-42-2.svg"
               >
                 <a
-                  href="tel:+12705550117"
+                  href="tel:+91 9587826831"
                   className="hover:text-cyan-800 dark:hover:text-cyan-400 dark:text-cyan-400 transition-colors"
                 >
-                  (+1) 270-555-0117
+                  (+91) 9521045443
                 </a>
                 <br />
                 <a
-                  href="tel:2095550104"
+                  href="tel: 91 9587826831"
                   className="hover:text-cyan-800 dark:hover:text-cyan-400 dark:text-cyan-400 transition-colors"
                 >
-                  (209) 555-0104
+                  + 91 9521045443
                 </a>
               </ContactInfoCard>
 
@@ -60,7 +60,7 @@ export const ContactPage: React.FC = () => {
                 title="Address"
                 icon="/assets/icon-43-2.svg"
               >
-                <p>4517 Huston Ave. Kuchu, Kentucky 39495</p>
+                <p>Near suncity hotel churu 331001</p>
               </ContactInfoCard>
 
               <ContactInfoCard
@@ -75,10 +75,10 @@ export const ContactPage: React.FC = () => {
                 </a>
                 <br />
                 <a
-                  href="tel:12705550117"
+                  href="tel:91 9587826831"
                   className="hover:text-cyan-800 dark:hover:text-cyan-400 dark:text-cyan-400 transition-colors"
                 >
-                  (+1) 270-555-0117
+                  91 9521045443
                 </a>
               </ContactInfoCard>
             </div>
@@ -90,13 +90,7 @@ export const ContactPage: React.FC = () => {
               {/* Map */}
               <div className="relative box-border gap-x-5 flex flex-col flex-wrap min-h-[auto] break-words gap-y-5 w-full overflow-hidden md:flex-nowrap md:w-6/12">
                 <div className="relative box-border gap-x-5 max-w-full min-h-[auto] break-words gap-y-5 w-full h-full overflow-hidden rounded-xl">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d-122.4194155!3d37.7749295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xf9a364f975a141ad!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1637330000000!5m2!1sen!2sus"
-                    title="University Location"
-                    className="w-full h-[300px] md:h-full border-none"
-                    allowFullScreen
-                    loading="lazy"
-                  ></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.24271954381!2d74.96487707612849!3d28.29097069950809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39149e027346269f%3A0xcd3564d2b0661b08!2sGovernment%20Lohia%20College!5e0!3m2!1sen!2ssg!4v1774436493688!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
             </div>
