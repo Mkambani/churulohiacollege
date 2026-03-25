@@ -67,7 +67,7 @@ export const TestimonialsSection: React.FC = () => {
         role: "Founder & CEO",
         rating: 5.0,
         quote: "At Lohia College, our students are at the heart of everything. Their stories reflect our mission to empower, inspire and prepare them for a rapidly changing world.",
-        img: "/src/assets/img1.webp"
+        img: "/assets/img1.webp"
       }
     ]);
   };

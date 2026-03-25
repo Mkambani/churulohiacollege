@@ -50,7 +50,7 @@ export const BlogGridPage: React.FC = () => {
       <PageBanner 
         title="Blog grid" 
         breadcrumb="Blog grid" 
-        bgImage="/src/assets/page-bnr-img1-4-min.webp"
+        bgImage="/assets/page-bnr-img1-4-min.webp"
         description="Education goes beyond textbooks and classrooms. We believe in empowering students to explore their passions challenge conventions."
       />
       <div className="relative box-border flex flex-col max-w-full break-words w-full mx-auto px-2.5 bg-stone-100 dark:bg-slate-800">
@@ -79,8 +79,8 @@ export const BlogGridPage: React.FC = () => {
                         date={new Date(blog.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                         category={blog.category}
                         author={blog.author}
-                        authorImg="/src/assets/cropped-avatar-96x96.webp"
-                        img={blog.image || "/src/assets/e-bl-img1-8-min.webp"}
+                        authorImg="/assets/cropped-avatar-96x96.webp"
+                        img={blog.image || "/assets/e-bl-img1-8-min.webp"}
                         link={`/blog-detail/${blog.id}`}
                       />
                     ))}

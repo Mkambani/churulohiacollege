@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
                 <img
                   alt="testimonial-shape-2.png"
                   className="relative box-border inline max-w-full break-words z-[1]"
-                  src="/src/assets/testimonial-shape-2.webp"
+                  src="/assets/testimonial-shape-2.webp"
                 />
               </div>
             </div>
@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
                     <img
                       alt="store-1"
                       className="relative box-border inline max-w-[120px] break-words z-[1] md:max-w-full"
-                      src="/src/assets/store-1.webp"
+                      src="/assets/store-1.webp"
                     />
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export const Footer: React.FC = () => {
                     <img
                       alt="store-2"
                       className="relative box-border inline max-w-[120px] break-words z-[1] md:max-w-full"
-                      src="/src/assets/store-2.webp"
+                      src="/assets/store-2.webp"
                     />
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export const Footer: React.FC = () => {
                           <img
                             alt="Icon"
                             className="relative box-border shrink-0 h-4 align-baseline w-4"
-                            src="/src/assets/twitter.svg"
+                            src="/assets/twitter.svg"
                           />
                         </div>
                       </Link>
@@ -115,7 +115,7 @@ export const Footer: React.FC = () => {
                           <img
                             alt="Icon"
                             className="relative box-border shrink-0 h-4 align-baseline w-4"
-                            src="/src/assets/facebook.svg"
+                            src="/assets/facebook.svg"
                           />
                         </div>
                       </Link>
@@ -127,7 +127,7 @@ export const Footer: React.FC = () => {
                           <img
                             alt="Icon"
                             className="relative box-border shrink-0 h-4 align-baseline w-4"
-                            src="/src/assets/instagram.svg"
+                            src="/assets/instagram.svg"
                           />
                         </div>
                       </Link>
@@ -318,13 +318,13 @@ export const Footer: React.FC = () => {
                               <img
                                 alt="Icon"
                                 className="absolute text-lg box-border h-4 align-baseline w-4 left-0 top-0"
-                                src="/src/assets/footericon.svg"
+                                src="/assets/footericon.svg"
                               />
                               <br className="absolute text-lg box-border hidden h-[18px] break-words w-[18px] left-0 top-0" />
                               <img
                                 alt="Icon"
                                 className="absolute text-lg box-border h-4 translate-x-[-150.0%] align-baseline w-4 left-0 top-0"
-                                src="/src/assets/ffootericon2.svg"
+                                src="/assets/ffootericon2.svg"
                               />
                             </em>
                           </p>

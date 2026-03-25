@@ -267,7 +267,7 @@
 
 @font-face {
   font-family: 'remixicon';
-  src: url("src/assets/remixicon.woff2") format("woff2"), url("src/assets/remixicon.woff") format("woff"), url("/src/assetss/remixicon.ttf") format("truetype");
+  src: url("src/assets/remixicon.woff2") format("woff2"), url("src/assets/remixicon.woff") format("woff"), url("/assetss/remixicon.ttf") format("truetype");
 }
 
 body {

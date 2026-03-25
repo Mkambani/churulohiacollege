@@ -70,7 +70,7 @@ export const DonationPage: React.FC = () => {
         currency: 'INR',
         name: 'Lohia College Alumni',
         description: `Donation for ${formData.campaign || 'General Fund'}`,
-        image: '/src/assets/page-bnr-img1-4-min-1.webp',
+        image: '/assets/page-bnr-img1-4-min-1.webp',
         handler: async function (response: any) {
           // Handle successful payment
           try {
@@ -138,7 +138,7 @@ export const DonationPage: React.FC = () => {
       <PageBanner 
         title="Support Lohia College" 
         breadcrumb="Donation" 
-        bgImage="/src/assets/page-bnr-img1-4-min-1.webp"
+        bgImage="/assets/page-bnr-img1-4-min-1.webp"
         description="Your generosity fuels the dreams of our students. Join us in building a brighter future through education and innovation."
       />
       
@@ -185,7 +185,7 @@ export const DonationPage: React.FC = () => {
         <div className="max-w-[1300px] mx-auto w-full">
           <div className="text-center mb-16">
             <span className="relative text-cyan-800 dark:text-cyan-400 text-[15px] font-semibold items-center box-border inline-flex break-words uppercase mb-3.5">
-              <img alt="Icon" className="relative box-border h-6 align-baseline w-6 mr-2.5" src="/src/assets/success-cap-color.svg" />
+              <img alt="Icon" className="relative box-border h-6 align-baseline w-6 mr-2.5" src="/assets/success-cap-color.svg" />
               Make an Impact
             </span>
             <h2 className="text-black dark:text-white text-[26px] font-semibold box-border leading-[33.8px] break-words stroke-slate-900 font-bitter md:text-[42px] md:leading-[52px]">

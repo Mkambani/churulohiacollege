@@ -17,7 +17,7 @@ export const BlogSidebar: React.FC<BlogSidebarProps> = ({ categories, recentPost
         <div className="relative">
           <input type="text" placeholder="Search..." className="w-full bg-stone-100 dark:bg-slate-800 border-none rounded-lg px-4 py-3 focus:ring-2 focus:ring-cyan-800 outline-none" />
           <button className="absolute right-3 top-1/2 -translate-y-1/2 text-cyan-800 dark:text-cyan-400">
-            <img src="/src/assets/colorfulicon.svg" alt="Search" className="w-5 h-5" />
+            <img src="/assets/colorfulicon.svg" alt="Search" className="w-5 h-5" />
           </button>
         </div>
       </div>

@@ -23,7 +23,7 @@ export const AboutSidebar: React.FC = () => {
               <li className="box-border min-h-[auto] min-w-[auto] break-words">
                 <Link to="/about" className="relative text-white font-medium items-center bg-cyan-800 box-border flex leading-[26px] break-words mb-3 px-4 py-[15px] rounded-lg">
                   <span className="relative box-border block leading-4 min-h-[auto] min-w-[auto] order-3 break-words">
-                    <img src="/src/assets/icon-43.svg" alt="Icon" className="relative box-border inline h-4 align-baseline w-4" />
+                    <img src="/assets/icon-43.svg" alt="Icon" className="relative box-border inline h-4 align-baseline w-4" />
                   </span>
                   <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">Who We Are</span>
                 </Link>
@@ -33,7 +33,7 @@ export const AboutSidebar: React.FC = () => {
         </div>
         <div className="relative self-start box-border gap-x-5 max-w-full min-h-[auto] break-words gap-y-5">
           <div className="relative box-border h-full break-words text-left w-full">
-            <img src="/src/assets/about-sidebar-thumb.webp" alt="about-sidebar-thumb" className="relative box-border inline max-w-full break-words w-full z-[1] rounded-xl md:w-auto" />
+            <img src="/assets/about-sidebar-thumb.webp" alt="about-sidebar-thumb" className="relative box-border inline max-w-full break-words w-full z-[1] rounded-xl md:w-auto" />
           </div>
         </div>
       </div>

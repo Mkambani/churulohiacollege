@@ -82,7 +82,7 @@ export const EventDetailsPage: React.FC = () => {
       <PageBanner 
         title={event.title} 
         breadcrumb="Event Details" 
-        bgImage="/src/assets/banner-image.webp"
+        bgImage="/assets/banner-image.webp"
       />
       <div className="relative bg-stone-100 dark:bg-slate-800 box-border flex flex-col max-w-full break-words w-full px-2.5">
         <div className="items-start box-border gap-x-2.5 flex grow flex-wrap h-full justify-center max-w-[520px] min-h-[auto] min-w-[auto] break-words gap-y-5 w-full mx-auto py-[70px] md:gap-x-5 md:flex-nowrap md:justify-normal md:max-w-[min(100%,1300px)] md:py-[110px]">

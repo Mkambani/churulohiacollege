@@ -106,7 +106,7 @@ const PublicLayout = () => {
       {/* Scroll to top button */}
       {showScroll && (
         <div className="fixed bg-sky-900 shadow-[rgba(0,0,0,0.3)_0px_0px_20px_0px] box-border h-10 break-words w-10 z-[999999] rounded-[50%] right-[30px] bottom-[80px] md:bottom-[30px] flex items-center justify-center cursor-pointer transition-opacity duration-300" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <img src="/src/assets/icon-50.svg" alt="Icon" className="absolute text-white box-border h-4 align-baseline w-4" />
+          <img src="/assets/icon-50.svg" alt="Icon" className="absolute text-white box-border h-4 align-baseline w-4" />
         </div>
       )}
     </div>

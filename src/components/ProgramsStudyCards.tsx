@@ -6,7 +6,7 @@ export const ProgramsStudyCards: React.FC = () => {
       <div className="box-border gap-x-5 flex flex-col grow flex-wrap h-full min-h-[auto] min-w-[auto] break-words gap-y-5 w-full mx-auto py-20 md:flex-nowrap max-w-full px-5 md:px-20 md:pt-[110px] md:pb-[120px]">
        <div className="absolute box-border gap-x-5 hidden max-w-full break-words gap-y-5 z-[1] right-[60px] top-[101px] md:block md:top-[252px]">
         <div className="relative box-border h-full break-words text-left w-full">
-         <img alt="book-cyan-left1.png" className="relative box-border inline max-w-full break-words z-[1]" src="/src/assets/book-lohia-left1.webp" referrerPolicy="no-referrer" />
+         <img alt="book-cyan-left1.png" className="relative box-border inline max-w-full break-words z-[1]" src="/assets/book-lohia-left1.webp" referrerPolicy="no-referrer" />
         </div>
        </div>
        <div className="relative box-border gap-x-5 flex flex-col flex-wrap min-h-[auto] break-words gap-y-5 w-full z-[1] px-2.5 md:flex-nowrap">
@@ -14,7 +14,7 @@ export const ProgramsStudyCards: React.FC = () => {
          <div className="box-border break-words text-center">
           <div className="relative box-border break-words">
            <span className="relative text-black dark:text-white text-[15px] font-semibold items-center box-border inline-flex break-words uppercase mb-3.5">
-            <img alt="Icon" className="relative box-border h-6 align-baseline w-6 mr-2.5" src="/src/assets/success-cap-color.svg" referrerPolicy="no-referrer" />
+            <img alt="Icon" className="relative box-border h-6 align-baseline w-6 mr-2.5" src="/assets/success-cap-color.svg" referrerPolicy="no-referrer" />
             Why Choose Lohia College
            </span>
            <h2 className="text-black dark:text-white text-[26px] font-semibold box-border leading-[33.8px] break-words stroke-slate-900 mb-[5px] font-bitter md:text-[42px] md:leading-[52px] md:mb-[15px]">
@@ -35,7 +35,7 @@ export const ProgramsStudyCards: React.FC = () => {
           <div className="box-border flex flex-col break-words text-center">
            <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
             <span className="text-black dark:text-white text-[50px] box-border inline-block fill-black leading-[50px] break-words">
-             <img alt="Icon" className="relative box-border h-[50px] align-baseline w-[50px]" src="/src/assets/choose-1.svg" referrerPolicy="no-referrer" />
+             <img alt="Icon" className="relative box-border h-[50px] align-baseline w-[50px]" src="/assets/choose-1.svg" referrerPolicy="no-referrer" />
             </span>
            </div>
           </div>
@@ -60,7 +60,7 @@ export const ProgramsStudyCards: React.FC = () => {
           <div className="box-border flex flex-col break-words text-center">
            <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
             <span className="text-black dark:text-white text-[50px] box-border inline-block fill-black leading-[50px] break-words">
-             <img alt="Icon" className="relative box-border h-[50px] align-baseline w-[50px]" src="/src/assets/choose-2.svg" referrerPolicy="no-referrer" />
+             <img alt="Icon" className="relative box-border h-[50px] align-baseline w-[50px]" src="/assets/choose-2.svg" referrerPolicy="no-referrer" />
             </span>
            </div>
           </div>
@@ -85,7 +85,7 @@ export const ProgramsStudyCards: React.FC = () => {
           <div className="box-border flex flex-col break-words text-center">
            <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
             <span className="text-black dark:text-white text-[50px] box-border inline-block fill-black leading-[50px] break-words">
-             <img alt="Icon" className="relative box-border h-[50px] align-baseline w-[50px]" src="/src/assets/choose-3.svg" referrerPolicy="no-referrer" />
+             <img alt="Icon" className="relative box-border h-[50px] align-baseline w-[50px]" src="/assets/choose-3.svg" referrerPolicy="no-referrer" />
             </span>
            </div>
           </div>

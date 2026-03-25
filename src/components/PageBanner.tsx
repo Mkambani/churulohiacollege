@@ -23,7 +23,7 @@ export const PageBanner: React.FC<PageBannerProps> = ({ title, breadcrumb, bgIma
               </Link>
             </span>
             <span className="relative items-center box-border flex leading-4 min-h-[auto] min-w-[auto] break-words">
-              <img src="/src/assets/icon-44-3.svg" alt="Icon" className="relative box-border h-4 align-baseline w-4" />
+              <img src="/assets/icon-44-3.svg" alt="Icon" className="relative box-border h-4 align-baseline w-4" />
             </span>
             <span className="box-border block min-h-[auto] min-w-[auto] break-words">
               <span className="box-border inline-block break-words">{breadcrumb}</span>

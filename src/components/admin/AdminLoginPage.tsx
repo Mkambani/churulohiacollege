@@ -3,8 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { Lock, Mail, ArrowRight, Loader2 } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 
-import collegeImg from '../../assets/college.png';
-
 export const AdminLoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -50,7 +48,7 @@ export const AdminLoginPage = () => {
       {/* Left Side - Image Only */}
       <div className="hidden md:flex md:w-1/2 relative overflow-hidden">
         <img 
-          src={collegeImg} 
+          src="/assets/college.png" 
           alt="College" 
           className="absolute inset-0 w-full h-full object-cover"
         />

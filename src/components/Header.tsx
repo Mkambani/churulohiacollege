@@ -130,10 +130,10 @@ export const Header: React.FC = () => {
                     <div className="box-border break-words">
                       <button className="text-slate-900 dark:text-white text-[25px] font-semibold items-center bg-transparent inline-flex h-auto justify-center leading-[31.25px] break-words text-center capitalize w-auto p-0 rounded-[5px] md:hidden">
                         <span className="items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words md:min-h-0 md:min-w-0">
-                          <img alt="Icon" className="relative box-border h-[25px] align-baseline w-[25px] dark:invert" src="/src/assets/menu-icon.svg" />
+                          <img alt="Icon" className="relative box-border h-[25px] align-baseline w-[25px] dark:invert" src="/assets/menu-icon.svg" />
                         </span>
                         <span className="items-center box-border hidden justify-center break-words">
-                          <img alt="Icon" className="relative box-border inline h-[25px] align-baseline w-[25px] dark:invert" src="/src/assets/close.svg" />
+                          <img alt="Icon" className="relative box-border inline h-[25px] align-baseline w-[25px] dark:invert" src="/assets/close.svg" />
                         </span>
                       </button>
                     </div>
@@ -159,10 +159,10 @@ export const Header: React.FC = () => {
                   <div className="relative box-border flex flex-col leading-4 break-words hidden lg:flex">
                     <button className="relative text-black dark:text-white text-xl font-semibold items-center bg-transparent gap-x-2.5 flex h-[26px] justify-center leading-[25px] min-h-[auto] min-w-[auto] break-words gap-y-2.5 text-center capitalize w-[26px] p-0">
                       <span className="box-border flex min-h-[auto] min-w-[auto] break-words">
-                        <img alt="Icon" className="relative box-border h-5 align-baseline w-5 dark:invert" src="/src/assets/search-icon.svg" />
+                        <img alt="Icon" className="relative box-border h-5 align-baseline w-5 dark:invert" src="/assets/search-icon.svg" />
                       </span>
                       <span className="box-border hidden break-words">
-                        <img alt="Icon" className="relative box-border inline h-5 align-baseline w-5 dark:invert" src="/src/assets/close.svg" />
+                        <img alt="Icon" className="relative box-border inline h-5 align-baseline w-5 dark:invert" src="/assets/close.svg" />
                       </span>
                     </button>
                   </div>
@@ -176,7 +176,7 @@ export const Header: React.FC = () => {
                   <div className="box-border break-words">
                     <div className="box-border flex break-words">
                       <button className="text-black dark:text-white text-4xl font-semibold items-center bg-transparent flex h-7 justify-center leading-[45px] min-h-0 min-w-0 break-words text-center capitalize w-7 p-0 md:min-h-[auto] md:min-w-[auto]">
-                        <img alt="Icon" className="relative box-border h-9 align-baseline w-9 dark:invert" src="/src/assets/menu-icon.svg" />
+                        <img alt="Icon" className="relative box-border h-9 align-baseline w-9 dark:invert" src="/assets/menu-icon.svg" />
                       </button>
                     </div>
                   </div>
@@ -185,8 +185,8 @@ export const Header: React.FC = () => {
                   <div className="relative box-border gap-x-3 hidden max-w-full min-h-0 break-words gap-y-2.5 pl-2.5 md:block md:min-h-[auto] md:pl-2 lg:pl-5">
                     <Link to="/subscription" className="relative text-white text-[15px] font-medium items-center bg-sky-500 box-border gap-x-2.5 inline-flex flex-row-reverse justify-center leading-[18px] break-words gap-y-2.5 z-[1] overflow-hidden px-[15px] lg:px-[26px] py-3 lg:py-4 rounded-[30px] whitespace-nowrap">
                       <span className="relative items-center box-border flex h-[15px] justify-center min-h-0 min-w-0 break-words w-[15px] overflow-hidden md:min-h-[auto] md:min-w-[auto]">
-                        <img alt="Icon" className="absolute box-border h-[15px] align-baseline w-[15px] left-0 top-0" src="/src/assets/apply-right-icon.svg" />
-                        <img alt="Icon" className="absolute box-border h-[15px] transform-none align-baseline w-[15px] left-0 top-0 md:translate-x-[-150.0%]" src="/src/assets/icon-25.svg" />
+                        <img alt="Icon" className="absolute box-border h-[15px] align-baseline w-[15px] left-0 top-0" src="/assets/apply-right-icon.svg" />
+                        <img alt="Icon" className="absolute box-border h-[15px] transform-none align-baseline w-[15px] left-0 top-0 md:translate-x-[-150.0%]" src="/assets/icon-25.svg" />
                       </span>
                       <span className="relative text-transparent items-center box-border flex justify-center min-h-0 min-w-0 break-words overflow-hidden md:min-h-[auto] md:min-w-[auto] before:accent-auto before:box-border before:text-white before:block before:text-[15px] before:not-italic before:normal-nums before:font-medium before:tracking-[normal] before:leading-[18px] before:list-outside before:list-disc before:break-words before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:transform-none before:visible before:border-separate before:inset-0 before:font-inter before:md:translate-y-[27px] after:accent-auto after:box-border after:text-white after:block after:text-[15px] after:not-italic after:normal-nums after:font-medium after:tracking-[normal] after:leading-[18px] after:list-outside after:list-disc after:break-words after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:inset-0 after:font-inter">
                         {activePlan ? 'Upgrade Plan' : 'Apply Now'}

@@ -74,7 +74,7 @@ export const ProfessorsSection: React.FC = () => {
             <div className="box-border break-words text-center">
               <div className="relative box-border break-words flex flex-col items-center">
                 <span className="relative text-sky-600 text-[13px] font-bold items-center box-border inline-flex break-words uppercase mb-4 tracking-[0.2em] bg-sky-50 px-4 py-1.5 rounded-full border border-sky-100">
-                  <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/src/assets/success-cap-color.svg" />
+                  <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/assets/success-cap-color.svg" />
                   Expert Faculty
                 </span>
                 <h2 className="text-black dark:text-white text-[32px] font-bold box-border leading-tight break-words font-space md:text-[52px] md:leading-[1.1]">

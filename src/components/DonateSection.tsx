@@ -39,10 +39,10 @@ export const DonateSection: React.FC = () => {
   // Map categories to icons
   const getIconForCategory = (category: string) => {
     switch (category?.toLowerCase()) {
-      case 'education': return "/src/assets/program-icons-1.svg";
-      case 'infrastructure': return "/src/assets/program-icons-2.svg";
-      case 'sports': return "/src/assets/program-icons-3.svg";
-      default: return "/src/assets/program-icons-1-1.svg";
+      case 'education': return "/assets/program-icons-1.svg";
+      case 'infrastructure': return "/assets/program-icons-2.svg";
+      case 'sports': return "/assets/program-icons-3.svg";
+      default: return "/assets/program-icons-1-1.svg";
     }
   };
 
@@ -51,17 +51,17 @@ export const DonateSection: React.FC = () => {
       <div className="box-border gap-x-5 flex flex-col grow flex-wrap h-full max-w-[min(100%,767px)] min-h-[auto] min-w-[auto] break-words gap-y-5 w-full mx-auto pt-20 pb-10 md:flex-nowrap md:max-w-[min(100%,1300px)] md:pt-[110px] md:pb-16">
        <div className="absolute box-border gap-x-5 hidden max-w-full break-words gap-y-5 z-[1] right-10 top-[69px] md:block md:right-[60px] md:top-[70px]">
         <div className="relative box-border h-full break-words text-left w-full">
-         <img alt="book-cyan-left1.png" className="relative box-border inline max-w-full break-words z-[1]" src="/src/assets/book-cyan-left1.webp" referrerPolicy="no-referrer" />
+         <img alt="book-cyan-left1.png" className="relative box-border inline max-w-full break-words z-[1]" src="/assets/book-cyan-left1.webp" referrerPolicy="no-referrer" />
         </div>
        </div>
        <div className="absolute box-border gap-x-5 max-w-full break-words gap-y-5 z-[1] left-0 -bottom-2.5">
         <div className="relative box-border h-full break-words text-left w-full">
-         <img alt="program-cyan-left1-1.png" className="relative box-border inline max-w-full opacity-30 break-words z-[1]" src="/src/assets/program-lohia-left1-1.webp" referrerPolicy="no-referrer" />
+         <img alt="program-cyan-left1-1.png" className="relative box-border inline max-w-full opacity-30 break-words z-[1]" src="/assets/program-lohia-left1-1.webp" referrerPolicy="no-referrer" />
         </div>
        </div>
        <div className="absolute box-border gap-x-5 max-w-full break-words gap-y-5 z-[1] right-0 bottom-0">
         <div className="relative box-border h-full break-words text-left w-full">
-         <img alt="program-cyan-right1.png" className="relative box-border inline max-w-full opacity-30 break-words z-[1]" src="/src/assets/program-lohia-right1.webp" referrerPolicy="no-referrer" />
+         <img alt="program-cyan-right1.png" className="relative box-border inline max-w-full opacity-30 break-words z-[1]" src="/assets/program-lohia-right1.webp" referrerPolicy="no-referrer" />
         </div>
        </div>
        <div className="relative items-center box-border gap-x-5 flex flex-wrap justify-center min-h-[auto] break-words gap-y-5 w-full px-2.5 py-0 md:flex-nowrap md:py-2.5">
@@ -69,7 +69,7 @@ export const DonateSection: React.FC = () => {
          <div className="box-border break-words text-center">
           <div className="relative box-border break-words flex flex-col items-center">
            <span className="relative text-sky-600 text-[13px] font-bold items-center box-border inline-flex break-words uppercase mb-4 tracking-[0.2em] bg-sky-50 px-4 py-1.5 rounded-full border border-sky-100">
-            <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/src/assets/success-cap-color.svg" referrerPolicy="no-referrer" />
+            <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/assets/success-cap-color.svg" referrerPolicy="no-referrer" />
             Support &amp; Donate
            </span>
            <h2 className="text-black dark:text-white text-[32px] font-bold box-border leading-tight break-words font-space md:text-[52px] md:leading-[1.1]">
@@ -115,7 +115,7 @@ export const DonateSection: React.FC = () => {
                     </div>
                     <Link className="relative text-white text-[15px] font-medium items-center bg-sky-600 box-border gap-x-2.5 inline-flex flex-row-reverse justify-center leading-[18px] break-words gap-y-2.5 z-[1] overflow-hidden px-[25px] py-4 rounded-[30px]" to="/donate">
                      <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words">
-                      <img alt="Icon" className="relative box-border h-[15px] align-baseline w-[15px]" src="/src/assets/donate-button-right-icon.svg" referrerPolicy="no-referrer" />
+                      <img alt="Icon" className="relative box-border h-[15px] align-baseline w-[15px]" src="/assets/donate-button-right-icon.svg" referrerPolicy="no-referrer" />
                      </span>
                      <span className="relative text-white items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words">
                       Donate Now

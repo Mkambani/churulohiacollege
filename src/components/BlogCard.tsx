@@ -13,7 +13,7 @@ interface BlogCardProps {
 
 export const BlogCard: React.FC<BlogCardProps> = ({ title, date, category, author, authorImg, img, link }) => {
   return (
-    <div className="relative bg-white dark:bg-slate-900 bg-[url('/src/assets/icon-active1.webp')] bg-no-repeat bg-size-[16%] box-border flex flex-col min-h-[auto] min-w-[auto] break-words bg-left-top p-3 rounded-xl md:bg-[position:110%_95%] shadow-sm hover:shadow-md transition-shadow">
+    <div className="relative bg-white dark:bg-slate-900 bg-[url('/assets/icon-active1.webp')] bg-no-repeat bg-size-[16%] box-border flex flex-col min-h-[auto] min-w-[auto] break-words bg-left-top p-3 rounded-xl md:bg-[position:110%_95%] shadow-sm hover:shadow-md transition-shadow">
       <div className="relative box-border shrink-0 h-60 min-h-[auto] min-w-[auto] break-words w-full overflow-hidden mb-[30px] rounded-xl">
         <img src={img} alt={title} className="aspect-[auto_1280_/_768] box-border inline h-full max-w-full object-cover break-words w-full transition-transform duration-500 hover:scale-110" />
       </div>

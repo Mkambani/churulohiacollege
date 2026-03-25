@@ -46,7 +46,7 @@ export const EventsPage: React.FC = () => {
       <PageBanner 
         title="All Events" 
         breadcrumb="All Events" 
-        bgImage="/src/assets/banner-image.webp"
+        bgImage="/assets/banner-image.webp"
         description="Education goes beyond textbooks and classrooms. We believe in empowering students to explore their passions challenge conventions."
       />
       <div className="relative bg-stone-100 dark:bg-slate-800 box-border flex flex-col max-w-full break-words w-full px-2.5">

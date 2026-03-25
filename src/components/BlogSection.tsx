@@ -53,7 +53,7 @@ export const BlogSection: React.FC = () => {
             <div className="box-border break-words text-center">
               <div className="relative box-border break-words flex flex-col items-center">
                 <span className="relative text-sky-600 text-[13px] font-bold items-center box-border inline-flex break-words uppercase mb-4 tracking-[0.2em] bg-sky-50 px-4 py-1.5 rounded-full border border-sky-100">
-                  <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/src/assets/cap.svg" />
+                  <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/assets/cap.svg" />
                   Blog &amp; News
                 </span>
                 <h2 className="text-black dark:text-white text-[32px] font-bold box-border leading-tight break-words font-space md:text-[52px] md:leading-[1.1]">
@@ -66,7 +66,7 @@ export const BlogSection: React.FC = () => {
           <div className="relative box-border gap-x-5 max-w-full min-h-[auto] break-words gap-y-5 pb-3 md:absolute md:right-5">
             <Link className="relative text-white text-[15px] font-medium items-center bg-sky-600 hover:bg-sky-700 shadow-lg box-border gap-x-2.5 inline-flex flex-row-reverse justify-center leading-[18px] break-words gap-y-2.5 z-[1] overflow-hidden px-[30px] py-4 rounded-[30px] transition-all duration-300" to="/blog">
               <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words">
-                <img alt="Icon" className="relative box-border h-[15px] align-baseline w-[15px] brightness-0 invert" src="/src/assets/colorfulicon.svg" />
+                <img alt="Icon" className="relative box-border h-[15px] align-baseline w-[15px] brightness-0 invert" src="/assets/colorfulicon.svg" />
               </span>
               <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words"> View All Posts </span>
             </Link>
@@ -92,7 +92,7 @@ export const BlogSection: React.FC = () => {
                   {blogs.map((blog) => (
                     <div key={blog.id} className="relative bg-white dark:bg-slate-900 shadow-[rgba(0,0,0,0.06)_0px_4px_30px_0px] box-border flex flex-col min-h-[auto] min-w-[auto] break-words mb-0 pt-3 pb-9 px-3 rounded-xl">
                       <div className="relative box-border shrink-0 h-60 min-h-[auto] min-w-[auto] break-words w-full overflow-hidden mb-[25px] rounded-xl">
-                        <img alt={blog.title} className="aspect-[auto_850_/_510] box-border inline h-full max-w-full object-cover break-words w-full" src={blog.image || "/src/assets/e-bl-img1-8-min-1024x614.webp"} />
+                        <img alt={blog.title} className="aspect-[auto_850_/_510] box-border inline h-full max-w-full object-cover break-words w-full" src={blog.image || "/assets/e-bl-img1-8-min-1024x614.webp"} />
                       </div>
                       <div className="box-border grow min-h-[auto] min-w-[auto] break-words px-0 md:px-3.5 flex flex-col">
                         <div className="items-center box-border gap-x-4 flex flex-wrap leading-4 break-words gap-y-2 mb-[15px]">

@@ -324,7 +324,7 @@ export const AdminBlog = () => {
                 <PageBanner 
                   title={formData.title || "Blog Title"} 
                   breadcrumb="Blog Details" 
-                  bgImage="/src/assets/page-bnr-img22-min.webp"
+                  bgImage="/assets/page-bnr-img22-min.webp"
                 />
 
                 <div className="relative box-border flex flex-col max-w-full break-words w-full mx-auto px-2.5">
@@ -332,10 +332,10 @@ export const AdminBlog = () => {
                     <BlogContent 
                       title={formData.title || "Blog Title"}
                       author={formData.author || "Author Name"}
-                      authorImg="/src/assets/img-1.webp"
+                      authorImg="/assets/img-1.webp"
                       date={formData.date}
                       category={formData.category || "Uncategorized"}
-                      featuredImg={imagePreview || "/src/assets/blog-1.webp"}
+                      featuredImg={imagePreview || "/assets/blog-1.webp"}
                       tags={[formData.category || "Blog", "Education", "University"]}
                       content={
                         <>
@@ -356,7 +356,7 @@ export const AdminBlog = () => {
                               case 'image':
                                 return (
                                   <div key={index} className="my-10">
-                                    <img src={block.content || "/src/assets/blog-1.webp"} alt={`Blog content image ${index}`} className="rounded-xl w-full h-auto max-h-[500px] object-cover shadow-md" />
+                                    <img src={block.content || "/assets/blog-1.webp"} alt={`Blog content image ${index}`} className="rounded-xl w-full h-auto max-h-[500px] object-cover shadow-md" />
                                   </div>
                                 );
                               default:

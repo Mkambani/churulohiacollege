@@ -71,7 +71,7 @@ export const BlogDetailPage: React.FC = () => {
         id: post.id,
         title: post.title,
         date: new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-        img: post.image || "/src/assets/blog.webp"
+        img: post.image || "/assets/blog.webp"
       })));
     } catch (err: any) {
       console.error('Error fetching recent posts:', err);
@@ -142,7 +142,7 @@ export const BlogDetailPage: React.FC = () => {
     authorImg: "",
     date: new Date(blog.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
     category: blog.category,
-    featuredImg: blog.image || "/src/assets/blog-1.webp",
+    featuredImg: blog.image || "/assets/blog-1.webp",
     tags: [blog.category, "Education", "University"],
     content: (
       <>
@@ -156,7 +156,7 @@ export const BlogDetailPage: React.FC = () => {
       <PageBanner 
         title={blogData.title} 
         breadcrumb="Blog Details" 
-        bgImage="/src/assets/page-bnr-img22-min.webp"
+        bgImage="/assets/page-bnr-img22-min.webp"
       />
 
       <div className="relative box-border flex flex-col max-w-full break-words w-full mx-auto px-2.5">

@@ -64,7 +64,7 @@ export const ApplicationFormSection: React.FC = () => {
     <div className="relative box-border gap-x-5 flex flex-col flex-wrap max-w-full break-words gap-y-5 w-full mx-auto md:flex-nowrap before:accent-auto before:box-border before:text-neutral-600 dark:text-neutral-400 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[max(100%_+_0px,100%)] before:tracking-[normal] before:leading-7 before:list-outside before:list-disc before:break-words before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[max(100%_+_0px,100%)] before:border-separate before:left-0 before:top-0 before:font-inter">
       <div className="absolute box-border gap-x-5 max-w-full break-words gap-y-5 z-[1] -left-10 top-[140px]">
         <div className="relative box-border h-full break-words text-left w-full">
-          <img alt="contact-left-shape1.png" className="relative box-border inline max-w-full break-words z-[1]" src="/src/assets/contact-left-shape1.webp" />
+          <img alt="contact-left-shape1.png" className="relative box-border inline max-w-full break-words z-[1]" src="/assets/contact-left-shape1.webp" />
         </div>
       </div>
       <div className="relative bg-[linear-gradient(rgb(255,255,255)_74%,rgba(3,3,3,0)_0%)] box-border flex flex-col min-h-[auto] break-words w-full px-0">
@@ -74,7 +74,7 @@ export const ApplicationFormSection: React.FC = () => {
               <div className="box-border break-words text-left">
                 <div className="relative box-border break-words">
                   <span className="relative text-black dark:text-white text-[15px] font-semibold items-center box-border inline-flex leading-[25px] break-words uppercase mb-[15px]">
-                    <img alt="Icon" className="relative box-border h-6 align-baseline w-6 mr-2.5" src="/src/assets/success-cap-color.svg" />
+                    <img alt="Icon" className="relative box-border h-6 align-baseline w-6 mr-2.5" src="/assets/success-cap-color.svg" />
                     Apply Today Now
                   </span>
                   <h2 className="text-black dark:text-white text-[26px] font-semibold box-border leading-[33.8px] break-words stroke-slate-900 mb-[15px] font-bitter md:text-[42px] md:leading-[52px]">
@@ -167,11 +167,11 @@ export const ApplicationFormSection: React.FC = () => {
         </div>
       </div>
       <div className="relative box-border gap-x-5 flex flex-col flex-wrap min-h-[auto] break-words gap-y-5 w-full mt-5 px-5 lg:flex-nowrap lg:mt-[-527px]">
-        <div className="relative bg-sky-500 bg-[url('/src/assets/unversity.png')] bg-no-repeat bg-cover box-border flex flex-col min-h-[400px] break-words w-full z-[2] overflow-hidden bg-center rounded-2xl md:min-h-[600px] before:accent-auto before:bg-[linear-gradient(96.26deg,rgba(0,58,101,0)_0%,rgb(12,87,118)_99.06%)] before:box-border before:text-neutral-600 dark:text-neutral-400 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[max(100%_+_0px,100%)] before:tracking-[normal] before:leading-7 before:list-outside before:list-disc before:break-words before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[max(100%_+_0px,100%)] before:rounded-2xl before:border-separate before:left-0 before:top-0 before:font-inter">
+        <div className="relative bg-sky-500 bg-[url('/assets/unversity.png')] bg-no-repeat bg-cover box-border flex flex-col min-h-[400px] break-words w-full z-[2] overflow-hidden bg-center rounded-2xl md:min-h-[600px] before:accent-auto before:bg-[linear-gradient(96.26deg,rgba(0,58,101,0)_0%,rgb(12,87,118)_99.06%)] before:box-border before:text-neutral-600 dark:text-neutral-400 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[max(100%_+_0px,100%)] before:tracking-[normal] before:leading-7 before:list-outside before:list-disc before:break-words before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[max(100%_+_0px,100%)] before:rounded-2xl before:border-separate before:left-0 before:top-0 before:font-inter">
           <div className="items-end box-border gap-x-5 flex grow flex-wrap h-full max-w-[min(100%,767px)] min-h-[auto] min-w-[auto] break-words gap-y-5 w-full mx-auto md:flex-nowrap md:max-w-[min(100%,1300px)]">
             <div className="relative box-border gap-x-5 max-w-full min-h-[auto] break-words gap-y-5">
               <div className="relative box-border h-full break-words text-left w-full">
-                <img alt="contact-img1-1-min" className="relative box-border inline max-w-full break-words w-[200px] z-[1] md:w-[355px]" src="/src/assets/form.png" />
+                <img alt="contact-img1-1-min" className="relative box-border inline max-w-full break-words w-[200px] z-[1] md:w-[355px]" src="/assets/form.png" />
               </div>
             </div>
           </div>

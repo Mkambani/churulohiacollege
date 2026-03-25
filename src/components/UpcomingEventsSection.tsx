@@ -46,12 +46,12 @@ export const UpcomingEventsSection: React.FC = () => {
       <div className="box-border gap-x-5 flex flex-col grow flex-wrap h-full min-h-[auto] min-w-[auto] break-words gap-y-5 w-full mx-auto pt-10 pb-10 md:flex-nowrap max-w-full px-0 md:px-0 md:pt-16 md:pb-16 -mt-[100px]">
        <div className="absolute self-start box-border gap-x-5 hidden max-w-full break-words gap-y-5 z-[1] right-20 top-[490px] md:block">
         <div className="relative box-border h-full break-words text-left w-full">
-         <img alt="event-img1-2.png" className="relative box-border inline max-w-full break-words w-[70px] z-[1]" src="/src/assets/event-img1-2.webp" referrerPolicy="no-referrer" />
+         <img alt="event-img1-2.png" className="relative box-border inline max-w-full break-words w-[70px] z-[1]" src="/assets/event-img1-2.webp" referrerPolicy="no-referrer" />
         </div>
        </div>
        <div className="absolute self-start box-border gap-x-5 hidden max-w-full break-words gap-y-5 z-[1] left-[70px] bottom-[70px] md:block">
         <div className="relative box-border h-full break-words text-left w-full">
-         <img alt="event-img1-1.png" className="relative box-border inline max-w-full break-words w-20 z-[1]" src="/src/assets/event-img1-1.webp" referrerPolicy="no-referrer" />
+         <img alt="event-img1-1.png" className="relative box-border inline max-w-full break-words w-20 z-[1]" src="/assets/event-img1-1.webp" referrerPolicy="no-referrer" />
         </div>
        </div>
        <div className="relative items-center box-border gap-x-5 flex flex-wrap justify-center min-h-[auto] break-words gap-y-5 w-full z-[1] px-2.5 py-0 md:flex-nowrap md:py-2.5">
@@ -59,7 +59,7 @@ export const UpcomingEventsSection: React.FC = () => {
          <div className="box-border break-words text-center">
           <div className="relative box-border break-words flex flex-col items-center">
            <span className="relative text-sky-600 text-[13px] font-bold items-center box-border inline-flex break-words uppercase mb-4 tracking-[0.2em] bg-sky-50 px-4 py-1.5 rounded-full border border-sky-100">
-            <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/src/assets/success-cap-color.svg" referrerPolicy="no-referrer" />
+            <img alt="Icon" className="relative box-border h-4 align-baseline w-4 mr-2" src="/assets/success-cap-color.svg" referrerPolicy="no-referrer" />
             Upcoming Events
            </span>
            <h2 className="text-neutral-900 dark:text-neutral-100 text-[32px] font-bold box-border leading-tight break-words font-space md:text-[52px] md:leading-[1.1]">
@@ -89,11 +89,11 @@ export const UpcomingEventsSection: React.FC = () => {
                <div className="box-border min-h-[auto] min-w-[auto] break-words">
                 <div className="items-center box-border gap-x-2.5 flex flex-wrap leading-4 break-words gap-y-2.5 mb-2.5">
                  <span className="text-neutral-500 dark:text-neutral-400 text-[13px] font-medium items-center box-border gap-x-[5px] flex leading-[16.25px] min-h-[auto] min-w-[auto] break-words gap-y-[5px]">
-                  <img alt="Icon" className="w-4 h-4 opacity-60" src="/src/assets/sucess-cap.svg" />
+                  <img alt="Icon" className="w-4 h-4 opacity-60" src="/assets/sucess-cap.svg" />
                   {event.time}
                  </span>
                  <span className="text-neutral-500 dark:text-neutral-400 text-[13px] font-medium items-center box-border gap-x-[5px] flex leading-[16.25px] min-h-[auto] min-w-[auto] break-words gap-y-[5px]">
-                  <img alt="Icon" className="w-4 h-4 opacity-60" src="/src/assets/upcoming-eventsection.svg" />
+                  <img alt="Icon" className="w-4 h-4 opacity-60" src="/assets/upcoming-eventsection.svg" />
                   {event.location}
                  </span>
                 </div>
@@ -104,7 +104,7 @@ export const UpcomingEventsSection: React.FC = () => {
                 </h4>
                 <Link className="relative text-white text-[14px] font-medium items-center bg-sky-600 box-border gap-x-2.5 inline-flex flex-row-reverse justify-center leading-[18px] break-words gap-y-2.5 z-[1] overflow-hidden px-[20px] py-3 rounded-[30px] mt-4 hover:bg-sky-700 transition-all hover:shadow-lg active:scale-95" to={event.link || '/event-details'}>
                  <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words">
-                  <img alt="Icon" className="relative box-border h-[12px] align-baseline w-[12px]" src="/src/assets/donate-button-right-icon.svg" referrerPolicy="no-referrer" />
+                  <img alt="Icon" className="relative box-border h-[12px] align-baseline w-[12px]" src="/assets/donate-button-right-icon.svg" referrerPolicy="no-referrer" />
                  </span>
                  <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words">
                   Get Ticket
@@ -119,7 +119,7 @@ export const UpcomingEventsSection: React.FC = () => {
           <div className="flex justify-center mt-12 mb-4">
             <Link className="relative text-white text-[15px] font-medium items-center bg-sky-600 hover:bg-sky-700 shadow-lg box-border gap-x-2.5 inline-flex flex-row-reverse justify-center leading-[18px] break-words gap-y-2.5 z-[1] overflow-hidden px-[30px] py-4 rounded-[30px] transition-all duration-300" to="/events">
               <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words">
-                <img alt="Icon" className="relative box-border h-[15px] align-baseline w-[15px] brightness-0 invert" src="/src/assets/colorfulicon.svg" />
+                <img alt="Icon" className="relative box-border h-[15px] align-baseline w-[15px] brightness-0 invert" src="/assets/colorfulicon.svg" />
               </span>
               <span className="relative items-center box-border flex justify-center min-h-[auto] min-w-[auto] break-words"> View All Events </span>
             </Link>

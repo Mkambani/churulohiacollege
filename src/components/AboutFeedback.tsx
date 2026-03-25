@@ -36,7 +36,7 @@ export const AboutFeedback: React.FC = () => {
                 >
                   <div className="relative bg-white dark:bg-slate-900 box-border flex flex-col-reverse break-words border p-5 rounded-md border-solid border-white/10 md:pt-[30px] md:pb-[13px] md:px-9 shadow-sm hover:shadow-md transition-shadow">
                     <div className="absolute bg-transparent box-border break-words right-[30px] top-[30px] md:right-[87px] md:top-11">
-                      <img src="/src/assets/icon-53.svg" alt="Icon" className="relative box-border inline align-baseline w-[60px]" />
+                      <img src="/assets/icon-53.svg" alt="Icon" className="relative box-border inline align-baseline w-[60px]" />
                     </div>
                     <div className="absolute items-center box-border gap-x-0.5 flex break-words gap-y-0.5 top-[90px] md:top-[155px]">
                       <span className="text-black dark:text-white text-[40px] font-semibold box-border block leading-[48px] min-h-[auto] min-w-[auto] break-words mr-2 md:text-6xl md:leading-7">{feedback.rating}</span>

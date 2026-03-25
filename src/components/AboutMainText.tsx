@@ -18,7 +18,7 @@ export const AboutMainText: React.FC = () => {
           <div className="[align-items:normal] box-border gap-x-[15px] flex flex-col break-words gap-y-[15px] md:items-start md:flex-row">
             <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
               <span className="text-sky-500 text-[40px] box-border inline-block fill-sky-500 leading-10 break-words text-center">
-                <img src="/src/assets/icon-45.svg" alt="Icon" className="relative box-border h-10 align-baseline w-10" />
+                <img src="/assets/icon-45.svg" alt="Icon" className="relative box-border h-10 align-baseline w-10" />
               </span>
             </div>
           </div>
@@ -41,17 +41,17 @@ export const AboutMainText: React.FC = () => {
       <div className="relative box-border gap-x-[35px] flex flex-wrap min-h-[auto] break-words gap-y-[30px] w-full mt-[13px] md:flex-nowrap">
         <div className="relative box-border gap-x-[35px] max-w-full min-h-[auto] break-words gap-y-[30px]">
           <div className="relative box-border h-full break-words text-left w-full">
-            <img src="/src/assets/inner-about-page-img1.webp" alt="inner-about-page-img1-1-min" className="relative box-border inline max-w-full break-words w-[450px] z-[1] rounded-2xl" />
+            <img src="/assets/inner-about-page-img1.webp" alt="inner-about-page-img1-1-min" className="relative box-border inline max-w-full break-words w-[450px] z-[1] rounded-2xl" />
           </div>
         </div>
         <div className="relative box-border gap-x-[35px] max-w-full min-h-[auto] break-words gap-y-[30px]">
           <div className="relative box-border h-full break-words text-left w-full">
-            <img src="/src/assets/campus-2.png" alt="inner-about-page-img1-2-min" className="relative box-border inline max-w-full break-words w-[450px] z-[1] rounded-2xl" />
+            <img src="/assets/campus-2.png" alt="inner-about-page-img1-2-min" className="relative box-border inline max-w-full break-words w-[450px] z-[1] rounded-2xl" />
           </div>
         </div>
         <div className="absolute bg-sky-500 box-border gap-x-[35px] max-w-full break-words gap-y-[30px] z-[1] p-5 rounded-[50%] left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2">
           <div className="relative box-border h-full break-words text-left w-full">
-            <img src="/src/assets/logo.png" alt="cyan-left-img1-min.png" className="relative box-border inline max-w-full break-words w-[90px] z-[1]" />
+            <img src="/assets/logo.png" alt="cyan-left-img1-min.png" className="relative box-border inline max-w-full break-words w-[90px] z-[1]" />
           </div>
         </div>
       </div>

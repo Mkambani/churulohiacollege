@@ -83,7 +83,7 @@ export const SubscriptionPage: React.FC = () => {
         <PageBanner 
           title="Subscription Plans" 
           breadcrumb="Subscription" 
-          bgImage="/src/assets/page-bnr-img1-4-min.webp"
+          bgImage="/assets/page-bnr-img1-4-min.webp"
           description="You are already on our best plan! Enjoy your premium benefits."
         />
         <div className="relative flex flex-col max-w-full break-words w-full mx-auto px-5 bg-stone-100 dark:bg-slate-800 py-[70px] md:py-[110px] text-center">
@@ -101,7 +101,7 @@ export const SubscriptionPage: React.FC = () => {
       <PageBanner 
         title="Subscription Plans" 
         breadcrumb="Subscription" 
-        bgImage="/src/assets/page-bnr-img1-4-min.webp"
+        bgImage="/assets/page-bnr-img1-4-min.webp"
         description={activePlan ? "Upgrade your plan to unlock even more academic potential at Lohia College." : "Choose the plan that best fits your academic goals and unlock your full potential at Lohia College."}
       />
       
@@ -109,7 +109,7 @@ export const SubscriptionPage: React.FC = () => {
         <div className="max-w-[1300px] mx-auto w-full">
           <div className="text-center mb-16">
             <span className="relative text-cyan-800 dark:text-cyan-400 text-[15px] font-semibold items-center inline-flex break-words uppercase mb-3.5">
-              <img alt="Icon" className="relative h-6 align-baseline w-6 mr-2.5" src="/src/assets/success-cap-color.svg" />
+              <img alt="Icon" className="relative h-6 align-baseline w-6 mr-2.5" src="/assets/success-cap-color.svg" />
               {activePlan ? 'Upgrade Your Plan' : 'Our Pricing'}
             </span>
             <h2 className="text-black dark:text-white text-[26px] font-semibold leading-[33.8px] break-words stroke-slate-900 font-bitter md:text-[42px] md:leading-[52px]">

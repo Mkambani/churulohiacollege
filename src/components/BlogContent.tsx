@@ -22,15 +22,15 @@ export const BlogContent: React.FC<BlogContentProps> = ({ title, author, authorI
 
         <div className="flex flex-wrap items-center gap-6 mb-8 text-sm font-medium text-neutral-500 dark:text-neutral-400">
           <div className="flex items-center gap-2">
-            <img src="/src/assets/icon-42-1.svg" alt="Author" className="w-5 h-5 opacity-60" />
+            <img src="/assets/icon-42-1.svg" alt="Author" className="w-5 h-5 opacity-60" />
             <span>By {author}</span>
           </div>
           <div className="flex items-center gap-2">
-            <img src="/src/assets/icon-43-1.svg" alt="Date" className="w-5 h-5 opacity-60" />
+            <img src="/assets/icon-43-1.svg" alt="Date" className="w-5 h-5 opacity-60" />
             <span>{date}</span>
           </div>
           <div className="flex items-center gap-2">
-            <img src="/src/assets/icon-44.svg" alt="Category" className="w-5 h-5 opacity-60" />
+            <img src="/assets/icon-44.svg" alt="Category" className="w-5 h-5 opacity-60" />
             <span>{category}</span>
           </div>
         </div>

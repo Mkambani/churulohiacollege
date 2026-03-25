@@ -13,7 +13,7 @@ interface EventCardProps {
 
 export const EventCard: React.FC<EventCardProps> = ({ title, date, time, location, img, link }) => {
   return (
-    <div className="relative bg-zinc-50 bg-[url('/src/assets/blog-shape.webp')] bg-no-repeat box-border flex flex-col min-h-[auto] min-w-[auto] break-words bg-left-top p-2.5 rounded-[10px] md:bg-[position:100%_98%] shadow-sm hover:shadow-md transition-shadow">
+    <div className="relative bg-zinc-50 bg-[url('/assets/blog-shape.webp')] bg-no-repeat box-border flex flex-col min-h-[auto] min-w-[auto] break-words bg-left-top p-2.5 rounded-[10px] md:bg-[position:100%_98%] shadow-sm hover:shadow-md transition-shadow">
       <div className="relative box-border shrink-0 h-[220px] min-h-[auto] min-w-[auto] break-words w-full overflow-hidden rounded-lg md:h-[275px]">
         <img src={img} alt={title} className="aspect-[auto_768_/_461] box-border inline h-full max-w-full object-cover break-words w-full transition-transform duration-500 hover:scale-110" />
         <div className="absolute items-center bg-sky-500 box-border gap-x-2.5 flex flex-wrap leading-4 break-words gap-y-2.5 z-[5] px-[15px] py-2 rounded-t-[5px] left-[15px] bottom-0">

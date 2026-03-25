@@ -19,7 +19,7 @@ export const AboutVision: React.FC = () => {
             <div className="box-border gap-x-0 flex flex-col break-words gap-y-0 text-center">
               <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
                 <span className="text-black dark:text-white text-[51px] box-border inline-block fill-black leading-[51px] break-words">
-                  <img src="/src/assets/icon-49.svg" alt="Icon" className="relative box-border h-[51px] align-baseline w-[51px]" />
+                  <img src="/assets/icon-49.svg" alt="Icon" className="relative box-border h-[51px] align-baseline w-[51px]" />
                 </span>
               </div>
             </div>
@@ -40,7 +40,7 @@ export const AboutVision: React.FC = () => {
             <div className="box-border gap-x-0 flex flex-col break-words gap-y-0 text-center">
               <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
                 <span className="text-black dark:text-white text-[51px] box-border inline-block fill-black leading-[51px] break-words">
-                  <img src="/src/assets/icon-50.svg" alt="Icon" className="relative box-border h-[51px] align-baseline w-[51px]" />
+                  <img src="/assets/icon-50.svg" alt="Icon" className="relative box-border h-[51px] align-baseline w-[51px]" />
                 </span>
               </div>
             </div>
@@ -59,7 +59,7 @@ export const AboutVision: React.FC = () => {
             <div className="box-border gap-x-0 flex flex-col break-words gap-y-0 text-center">
               <div className="box-border shrink-0 leading-[0px] min-h-[auto] min-w-[auto] break-words">
                 <span className="text-black dark:text-white text-[51px] box-border inline-block fill-black leading-[51px] break-words">
-                  <img src="/src/assets/icon-51.svg" alt="Icon" className="relative box-border h-[51px] align-baseline w-[51px]" />
+                  <img src="/assets/icon-51.svg" alt="Icon" className="relative box-border h-[51px] align-baseline w-[51px]" />
                 </span>
               </div>
             </div>

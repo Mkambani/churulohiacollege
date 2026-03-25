@@ -2,12 +2,12 @@ import React from 'react';
 
 export const AboutStats: React.FC = () => {
   return (
-    <div className="relative items-center bg-cyan-800 bg-[url('/src/assets/inner-count-img1-1-min.webp')] box-border gap-x-5 flex flex-wrap justify-between min-h-[auto] break-words gap-y-5 w-full mt-5 mb-[18px] p-5 rounded-2xl md:flex-nowrap md:px-10 md:py-[42px] before:accent-auto before:bg-[linear-gradient(66.21deg,rgb(12,87,118)_11.06%,rgba(12,87,118,0.6)_100%)] before:box-border before:text-neutral-600 dark:text-neutral-400 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[max(100%_+_0px,100%)] before:tracking-[normal] before:leading-7 before:list-outside before:list-disc before:break-words before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[max(100%_+_0px,100%)] before:rounded-2xl before:border-separate before:left-0 before:top-0 before:font-inter">
+    <div className="relative items-center bg-cyan-800 bg-[url('/assets/inner-count-img1-1-min.webp')] box-border gap-x-5 flex flex-wrap justify-between min-h-[auto] break-words gap-y-5 w-full mt-5 mb-[18px] p-5 rounded-2xl md:flex-nowrap md:px-10 md:py-[42px] before:accent-auto before:bg-[linear-gradient(66.21deg,rgb(12,87,118)_11.06%,rgba(12,87,118,0.6)_100%)] before:box-border before:text-neutral-600 dark:text-neutral-400 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-[max(100%_+_0px,100%)] before:tracking-[normal] before:leading-7 before:list-outside before:list-disc before:break-words before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[max(100%_+_0px,100%)] before:rounded-2xl before:border-separate before:left-0 before:top-0 before:font-inter">
       <div className="relative box-border gap-x-5 max-w-full min-h-[auto] break-words gap-y-5">
         <div className="relative box-border break-words">
           <div className="box-border flex break-words">
             <div className="box-border min-h-[auto] min-w-[auto] break-words w-10 mr-[15px] pr-[23px] pt-2 md:w-auto md:mr-0">
-              <img src="/src/assets/icon-46.svg" alt="Icon" className="relative box-border inline h-[50px] align-baseline w-10 md:w-[50px]" />
+              <img src="/assets/icon-46.svg" alt="Icon" className="relative box-border inline h-[50px] align-baseline w-10 md:w-[50px]" />
             </div>
             <div className="box-border min-h-[auto] min-w-[auto] break-words">
               <div className="items-center box-border flex break-words">
@@ -40,7 +40,7 @@ export const AboutStats: React.FC = () => {
         <div className="relative box-border break-words">
           <div className="box-border flex break-words">
             <div className="box-border min-h-[auto] min-w-[auto] break-words w-10 mr-[15px] pr-[23px] pt-2 md:w-auto md:mr-0">
-              <img src="/src/assets/icon-47.svg" alt="Icon" className="relative box-border inline h-[50px] align-baseline w-10 md:w-[50px]" />
+              <img src="/assets/icon-47.svg" alt="Icon" className="relative box-border inline h-[50px] align-baseline w-10 md:w-[50px]" />
             </div>
             <div className="box-border min-h-[auto] min-w-[auto] break-words">
               <div className="items-center box-border flex break-words">
@@ -73,7 +73,7 @@ export const AboutStats: React.FC = () => {
         <div className="relative box-border break-words">
           <div className="box-border flex break-words">
             <div className="box-border min-h-[auto] min-w-[auto] break-words w-10 mr-[15px] pr-[23px] pt-2 md:w-auto md:mr-0">
-              <img src="/src/assets/icon-48.svg" alt="Icon" className="relative box-border inline h-[50px] align-baseline w-10 md:w-[50px]" />
+              <img src="/assets/icon-48.svg" alt="Icon" className="relative box-border inline h-[50px] align-baseline w-10 md:w-[50px]" />
             </div>
             <div className="box-border min-h-[auto] min-w-[auto] break-words">
               <div className="items-center box-border flex break-words">

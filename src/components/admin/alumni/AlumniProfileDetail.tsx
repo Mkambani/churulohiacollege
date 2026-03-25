@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft, MapPin, ExternalLink, FileText, CheckCircle2, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { supabase } from '../../../lib/supabase';
-import profileBanner from '../../../assets/profile-banner.webp';
 
 interface AlumniProfileDetailProps {
   selectedAlumni: any;
@@ -49,7 +48,7 @@ export const AlumniProfileDetail: React.FC<AlumniProfileDetailProps> = ({
       {/* Header / Cover Image */}
       <div className="relative h-48 md:h-64 w-full overflow-hidden">
         <img 
-          src={profileBanner} 
+          src="/assets/profile-banner.webp" 
           alt="Cover" 
           className="w-full h-full object-cover"
         />

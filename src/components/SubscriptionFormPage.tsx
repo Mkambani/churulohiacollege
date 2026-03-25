@@ -411,7 +411,7 @@ export const SubscriptionFormPage: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/src/assets/college.png"
+            src="/assets/college.png"
             alt="University Campus"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
