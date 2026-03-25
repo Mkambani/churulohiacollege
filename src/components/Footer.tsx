@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
                         </p>
                         <p className="text-white text-sm box-border break-words text-left md:text-start">
                           {" "}
-                          +1 (201) 895-3801{" "}
+                          + 91 9587826831{" "}
                         </p>
                       </div>
                     </div>
