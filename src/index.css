@@ -1,0 +1,369 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@custom-variant dark (&:is(.dark, .dark *));
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-bitter: "Bitter", sans-serif;
+  --font-space: "Space Grotesk", sans-serif;
+  --font-times-new-roman: "Times New Roman", serif;
+  --font-remixicon: "remixicon";
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4P3-X3B3.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPz-X3B3.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cvvz-X3B3.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c4Pz-X3B3.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6c0vz-X3B3.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cPvv-X3B3.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cB_v-X3B3.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cYPv-X3B3.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxjHiqOu8IVPmn7epZnDMyKBvHf5D6cSfv-X3B3.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbeOLjOWA.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbfOLjOWA.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8ajfOLjOWA.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8fbeOLjOWA.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8cTfOLjOWA.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8SjYOLjOWA.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8RHYOLjOWA.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8XbYOLjOWA.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url("https://fonts.gstatic.com/s/bitter/v40/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8V_YOLjOWA.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dpRipWA.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdtRipWA.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTch9tRipWA.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dtRipWA.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc69tRipWA.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcB9xRipWA.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxRipWA.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdxRipWA.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTccNxRipWA.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeAZ9hjQ.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfAZ9hjQ.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfAZ9hjQ.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hjQ.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fAZ9hjQ.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYAZ9hjQ.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hjQ.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYAZ9hjQ.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYAZ9hjQ.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'remixicon';
+  src: url("src/assets/remixicon.woff2") format("woff2"), url("src/assets/remixicon.woff") format("woff"), url("/src/assetss/remixicon.ttf") format("truetype");
+}
+
+body {
+  @apply font-inter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-outfit;
+}
+
+/* Modern Global Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(107, 114, 128, 0.8);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background-color: rgba(71, 85, 105, 0.5);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 116, 139, 0.8);
+}
+
+/* Custom Scrollbar for Admin Panel */
+.admin-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.admin-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.admin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.dark .admin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #475569;
+}
+.admin-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+.dark .admin-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #64748b;
+}
+
+/* Custom DatePicker Styles */
+.react-datepicker {
+  @apply font-sans border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 rounded-xl shadow-2xl overflow-hidden;
+}
+.react-datepicker__header {
+  @apply bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-700 pt-4;
+}
+.react-datepicker__current-month {
+  @apply text-slate-800 dark:text-white font-bold;
+}
+.react-datepicker__day-name {
+  @apply text-slate-400 dark:text-slate-500 font-medium;
+}
+.react-datepicker__day {
+  @apply text-slate-700 dark:text-slate-300 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:text-[#063970] dark:hover:text-blue-400 rounded-lg transition-colors;
+}
+.react-datepicker__day--selected {
+  @apply bg-[#063970] dark:bg-blue-600 text-white;
+}
+.react-datepicker__day--keyboard-selected {
+  @apply bg-blue-100 dark:bg-blue-900/50 text-[#063970] dark:text-blue-400;
+}
+.react-datepicker__navigation {
+  @apply top-4;
+}
+.react-datepicker__navigation-icon::before {
+  @apply border-slate-400 dark:border-slate-500;
+}
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  @apply border-slate-400 dark:border-slate-500;
+}
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown {
+  @apply bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg shadow-xl;
+}
+.react-datepicker__year-option:hover,
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover {
+  @apply bg-slate-50 dark:hover:bg-slate-700/50;
+}

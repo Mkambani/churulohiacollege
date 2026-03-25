@@ -1,0 +1,19 @@
+To store donation images, you need to create a storage bucket in your Supabase project.
+
+1. Go to your Supabase Dashboard.
+2. Navigate to "Storage" from the left sidebar.
+3. Click on "New bucket".
+4. Name the bucket: `donations`
+5. Make sure to toggle "Public bucket" to ON so that images can be viewed publicly.
+6. Click "Save".
+
+After creating the bucket, you need to set up Storage Policies to allow uploads:
+1. Click on "Policies" under the "Configuration" section in the Storage menu.
+2. Under the `donations` bucket, click "New policy".
+3. Choose "For Full Customization".
+4. Name it "Allow public uploads" (or similar).
+5. Select ALL operations (SELECT, INSERT, UPDATE, DELETE).
+6. Set the policy definition to `true` (for testing/anon access).
+7. Click "Save policy".
+
+Note: Allowing public INSERT/UPDATE/DELETE is for ease of development with the anon key. In a production environment, you should restrict these operations to authenticated users only.
