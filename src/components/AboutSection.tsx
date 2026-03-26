@@ -6,7 +6,7 @@ export const AboutSection: React.FC = () => {
     <div className="relative bg-[#F5F5F5] dark:bg-slate-950 box-border gap-x-[60px] flex flex-col flex-wrap max-w-full break-words gap-y-0 w-full mx-auto py-12 md:flex-nowrap md:py-24">
       <div className="absolute box-border gap-x-[60px] hidden max-w-full break-words gap-y-0 z-[1] right-10 top-[70px] md:block md:top-[210px]">
         <div className="relative box-border h-full break-words text-left w-full">
-          <img alt="cyan-right-1-1-min.png" className="relative box-border inline max-w-full break-words w-20 z-[1]" src="/assets/cyan-right-1-1-min.png" />
+          <img alt="lohiacollege-right-1-1-min.png" className="relative box-border inline max-w-full break-words w-20 z-[1]" src="/assets/cyan-right-1-1-min.png" />
         </div>
       </div>
       <div className="relative box-border flex flex-col min-h-[auto] break-words w-full px-0">
