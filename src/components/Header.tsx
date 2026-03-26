@@ -55,17 +55,17 @@ export const Header: React.FC = () => {
                   <ul className="relative items-center box-border flex flex-wrap justify-center list-none break-words pl-0 md:justify-end">
                     <li className="box-border min-h-[auto] min-w-[auto] break-words my-2 md:my-0">
                       <Link to="/about" className="relative text-white text-sm font-medium items-center box-border flex leading-[10px] break-words capitalize">
-                        <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">Tuition &amp; Fee</span>
+                        <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">Event</span>
                       </Link>
                     </li>
                     <li className="box-border min-h-[auto] min-w-[auto] break-words my-2 md:my-0">
                       <Link to="/about" className="relative text-white text-sm font-medium items-center box-border flex leading-[10px] break-words capitalize ml-2.5 pl-2.5 border-l border-solid border-white/20 md:ml-3 md:pl-3">
-                        <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">How to Apply</span>
+                        <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">Donation</span>
                       </Link>
                     </li>
                     <li className="box-border min-h-[auto] min-w-[auto] break-words my-2 md:my-0">
                       <Link to="/about" className="relative text-white text-sm font-medium items-center box-border flex leading-[10px] break-words capitalize ml-2.5 pl-2.5 border-l border-solid border-white/20 md:ml-3 md:pl-3">
-                        <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">Requirements</span>
+                        <span className="box-border block grow min-h-[auto] min-w-[auto] break-words">About Us</span>
                       </Link>
                     </li>
                     <li className="box-border min-h-[auto] min-w-[auto] break-words my-2 md:my-0">
