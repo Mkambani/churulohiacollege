@@ -5,8 +5,7 @@ import { AboutMainText } from './AboutMainText';
 import { AboutStats } from './AboutStats';
 import { AboutVision } from './AboutVision';
 import { AboutCampusTour } from './AboutCampusTour';
-import { AboutFeedback } from './AboutFeedback';
-import { AboutGallery } from './AboutGallery';
+
 
 export const AboutPage: React.FC = () => {
   return (
