@@ -29,7 +29,7 @@ export const AboutSection: React.FC = () => {
             </div>
             <div className="absolute box-border gap-x-6 hidden left-[-83px] max-w-full break-words gap-y-5 z-0 top-[97px] md:block">
               <div className="relative box-border h-full break-words text-left w-full">
-                <img alt="cyan-left-side-1-min.png" className="relative box-border inline max-w-full break-words z-[1]" src="" />
+                <img alt="lohiacollege-left-side-1-min.png" className="relative box-border inline max-w-full break-words z-[1]" src="" />
               </div>
             </div>
           </div>
