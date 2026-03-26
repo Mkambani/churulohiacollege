@@ -20,11 +20,11 @@ export const AboutPage: React.FC = () => {
               <AboutStats />
               <AboutVision />
               <AboutCampusTour />
-              <AboutFeedback />
+             
             </div>
           </div>
         </div>
-        <AboutGallery />
+      
       </div>
     </main>
   );
